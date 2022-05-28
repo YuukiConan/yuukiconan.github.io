@@ -1,0 +1,74 @@
+<!-- You need a Internet connection to load online photo and font awesome cdn -->
+
+<!DOCTYPE HTML>
+<html>
+      <head>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8">
+            <meta name="viewport" content="width=  device-width, height= device-height, initial-scale=1">
+            <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
+            <meta name="rating" content="all">
+            <meta name="robots" content="noindex,do-follow">
+            <meta name="description" content="Yuuki Conan adalah website untuk menguji virus/malware yang Anda buat.">
+            <title> Welcome to Yuuki Conan </title>
+            <!-- CSS -->
+            <link rel="stylesheet" href="design.css">
+            <script type="text/javascript">
+            function InfiniteAlert() {
+            document.getElementById("notification");
+            history.pushState(null, null, location.href);
+            window.onpopstate = function () {
+            history.go(1);
+            };
+            alert("MESSAGE");
+            alert("OPTIONAL MESSAGE");
+            alert(InfiniteAlert().repeat(0));
+            }
+            </script>
+            <script src="https://use.fontawesome.com/840b31485f.js"></script>
+</head>
+<body>
+      <h3>
+            <label> 
+                  <img src="https://pngimg.com/uploads/photoshop/photoshop_PNG68.png" width="30px" height="30px" alt="Yuuki Conan" id="image"> 
+                  <input type="search" name="search" id="btnsearch">
+                  <button class="SearchButton">
+                  <i class="fa fa-search"> Search </i>
+                  </button>
+           </label>
+      </h3>
+      <div class="content">
+            <nav> 
+                  <ul>
+                        <li> <a href="Yuuki Conan.html"> <i class="fa fa-home" style="color: white;"> Home  </i> </a> </li>
+                        <li> <a href="#" style="color: white;"> <i class="fa fa-info"> About </i> </a> </li>
+				                  <li> <a href="#" style="color: white;"> <i class="fa fa-user"> Sign In </i> </a> </li>
+                  </ul>
+            </nav>
+      </div>
+      <hr>
+      <h1> Yuuki Conan </h1>
+      <hr>
+            <h6> Created by YC </h6>
+            <button id="submit" id="notification" onclick="InfiniteAlert()"> Tekan! </button>
+      <div class="footer">
+             <nav>
+                   <ul>
+                        <div class="section"> 
+                        <label>
+                              <div id="year">
+                              </div> 
+                              <script type="text/javascript">
+                  var d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear() + ' Yuuki Conan®';
+                              </script> 
+            <br>       
+                        </label>
+                        </div>
+                              <li> <a href="#"> <i class="fa fa-youtube"> Youtube </i></a></li> <br/>
+                              <li> <a href="#"> <i class="fa fa-facebook"> Facebook </i></a></li> <br/>
+                              <li> <a href="#"> <i class="fa fa-envelope"> Contact </i> </a> </li>
+                  </ul>
+            </nav>
+      </div>
+</body>
+</html>
